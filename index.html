@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple slideshow</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="slideshow-container">
+            <div class="slide">
+                <img src="images/img1.jpg" alt="Alternative image text 1" draggable="false" class="slide-img">
+            </div>
+            <div class="slide">
+                <img src="images/img2.jpg" alt="Alternative image text 2" draggable="false" class="slide-img">
+            </div>
+            <div class="slide">
+                <img src="images/img3.jpg" alt="Alternative image text 3" draggable="false" class="slide-img">
+            </div>
+            <div class="slide">
+                <img src="images/img4.jpg" alt="Alternative image text 4" draggable="false" class="slide-img">
+            </div>
+            <div class="slide">
+                <img src="images/img5.jpg" alt="Alternative image text 5" draggable="false" class="slide-img">
+            </div>
+            <div class="slide">
+                <img src="images/img6.jpg" alt="Alternative image text 6" draggable="false" class="slide-img">
+            </div>
+            <div class="slide">
+                <img src="images/img7.jpg" alt="Alternative image text 7" draggable="false" class="slide-img">
+            </div>
+            <div class="slide">
+                <img src="images/img8.jpg" alt="Alternative image text 8" draggable="false" class="slide-img">
+            </div>
+            <div class="slide">
+                <img src="images/img9.jpg" alt="Alternative image text 9" draggable="false" class="slide-img">
+            </div>
+            <div class="slide">
+                <img src="images/img10.jpg" alt="Alternative image text 10" draggable="false" class="slide-img">
+            </div>
+        </div>
+        <div class="slideshow-control">
+            <div class="main">
+                <div class="header">
+                    <div class="slide-index">
+                        <span></span>
+                    </div>
+                    <div class="logo">
+                        <h1>SLIDESHOW GALLERY</h1>
+                    </div>
+                </div>
+                <div class="btn-control">
+                    <button type="button" onclick="setSlideIndex(-1)">
+                        <img src="images/icon-up.png" alt="Arrow up" draggable="false">
+                    </button>
+                    <button type="button" onclick="setSlideIndex(1)">
+                        <img src="images/icon-down.png" alt="Arrow down" draggable="false">
+                    </button>
+                </div>
+                <div class="slide-title">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="slideshow-gallery">
+                <div class="gallery"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
